@@ -5,6 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Sedaux Technologies</title>
   <style>
+    .services-grid {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.services-grid ul {
+  list-style-type: disc;
+}
+
     body, html {
       margin: 0;
       padding: 0;
@@ -118,17 +128,21 @@ With years of experience and a commitment to excellence, we help businesses stay
 
   <section id="services">
     <h2>Our Services</h2>
-    <ul>
-      <li>DB2 Installation & Configuration</li>
-      <li>DB2 HADR Setup & Support</li>
-      <li>Performance Tuning & Optimization</li>
-      <li>Disaster Recovery & High Availability Solutions</li>
-      <li>Automatic Failover with Pacemaker (Hostname/VIP)</li>
-      <li>Cloud Migration & Infrastructure Management (AWS, Azure, GCP)</li>
-      <li>Automation (Ansible, Chef, Terraform)</li>
-      <li>Database Auditing & Encryption Services</li>
-      <li>Backup & Recovery Strategies</li>
-    </ul>
+    <div class="services-grid">
+  <ul>
+    <li>DB2 Installation & Configuration</li>
+    <li>DB2 HADR Setup & Support</li>
+    <li>Performance Tuning & Optimization</li>
+    <li>Disaster Recovery & High Availability Solutions</li>
+  </ul>
+  <ul>
+    <li>Automatic Failover with Pacemaker (Hostname/VIP)</li>
+    <li>Cloud Migration & Infrastructure Management (AWS, Azure, GCP)</li>
+    <li>Automation (Ansible, Chef, Terraform)</li>
+    <li>Database Auditing and Encryption Services</li>
+  </ul>
+</div>
+
   </section>
 
   <section id="contact">
