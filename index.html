@@ -26,6 +26,23 @@
       font-weight: bold;
     }
     .hero {
+      .hero-content {
+  position: relative;
+  z-index: 1;
+  top: -50px;  /* Moves content higher */
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+}
+
+.hero-content p {
+  font-size: 20px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+}
+
       background: url('assets/background.jpg') no-repeat center center/cover;
       height: 100vh;
       color: #fff;
